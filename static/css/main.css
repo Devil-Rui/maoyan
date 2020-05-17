@@ -1,0 +1,158 @@
+#index {
+padding: 30px 50px;
+}
+
+#index .line {
+text-align: center;
+}
+
+#index #category {
+display: inline-block;
+height: 300px;
+width: 44%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+#index #language {
+display: inline-block;
+height: 300px;
+width: 44%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+#index #district {
+display: inline-block;
+height: 400px;
+width: 80%;
+margin-left: 3%;
+margin-right: 3%;
+}
+
+#index #year {
+display: inline-block;
+height: 300px;
+width: 44%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+#index #length {
+display: inline-block;
+height: 300px;
+width: 44%;
+margin-left: 2%;
+margin-right: 2%;
+}
+body {
+    font-family: Microsoft Yahei;
+    background-color: #f5f5f5;
+}
+
+#header {
+    background-image: url("../static/images/bg2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 60px 80px;
+    position: relative;
+    box-shadow: 0px 3px 3px rgba(20, 20, 20, 0.3) inset;
+}
+
+#header #nav {
+    position: absolute;
+    right: 80px;
+    top: 60px;
+}
+
+#header #nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: color .3s;
+    -o-transition: color .3s;
+    -ms-transition: color .3s;
+    -moz-transition: color .3s;
+    -webkit-transition: color .3s;
+    transition: background-color .3s;
+    -o-transition: background-color .3s;
+    -ms-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -webkit-transition: background-color .3s;
+}
+
+#header #nav a.active {
+    color: #37a;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(20, 20, 20, 0.6);
+}
+
+#header h1 {
+    color: #37a;
+    margin-bottom: 30px;
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+#header p {
+    color: #555;
+    margin-right: 200px;
+    text-indent: 2em;
+    font-family: Helvetica;
+}
+
+#header p a {
+    text-decoration: none;
+    color: #6FA4CA;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: color .3s;
+    -o-transition: color .3s;
+    -ms-transition: color .3s;
+    -moz-transition: color .3s;
+    -webkit-transition: color .3s;
+}
+
+#header p a:hover {
+    color: #24597F;
+}
+
+#header p .em {
+    color: #DA6D6D;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 30px;
+    font-size: 15px;
+}
+
+#footer p {
+    margin-bottom: 0;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #6FA4CA;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: color .3s;
+    -o-transition: color .3s;
+    -ms-transition: color .3s;
+    -moz-transition: color .3s;
+    -webkit-transition: color .3s;
+}
+
+#footer p a:hover {
+    color: #24597F;
+}
